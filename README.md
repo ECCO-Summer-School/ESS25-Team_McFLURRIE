@@ -1,12 +1,4 @@
-# McFLURRIE
-## Mackenzie Freshwater Layers Uncover River Runoff Ice Evolution
-
-This is an example of how teams can structure their project repositories and format their project README.md file.
-
-When creating a project repository from this template choose "Public" so other participants can follow progress. Add a "topic" to your repository details (click on the gear icon next to the "About" section on the repository page) to help others find your work (e.g. `ecco-hackweek-2024`).
-
-
-## Files and folders in your project repository
+## Files and folders in your project repository - to be deleted
 
 This template provides the following suggested organizaiton structure for the project repository, but each project team is free to organize their repository as they see fit.
 
@@ -25,75 +17,62 @@ This template provides the following suggested organizaiton structure for the pr
 * `model-card.md`
 <br> Description (following a metadata standard) of any machine learning models used in the project
 
-# Recommended content for your README.md file:
-
-(you can remove the content here and above from your final project README.md file so that it begins with the Project or Team Name title below)
-
-# Project or Team Name
-
-## Project Title and Introduction
-
-Provide a brief introduction describing the proposed work. Be sure to also decribe what skills team members will get to learn and practice as part of this project.
+# McFLURRIE
+## Mackenzie Freshwater Layers Uncover River Runoff Ice Evolution
 
 ### Collaborators
 
-List all participants on the project. Here is a good space to share your personal goals for the hackweek and things you can help with.
-
 | Name | Personal goals | Can help with | Role |
 | ------------- | ------------- | ------------- | ------------- |
-| Katherine J. | I want to learn specific python libraries for working with these data  | I can help with understanding our dataset, programming in R  | Project Lead |
-| Rosalind F. | Practice leading a software project | machine learning and python (scipy, scikit-learn) | Project Lead |
-| Alan T. | learning about your dataset | GitHub, Jupyter, cloud computing | Project Helper |
-| Rachel C. | learn to use github, resolve merge conflicts | I am familiar with our dataset | Team Member  |
-| ... | ... | ... | ... |
-| ... | ... | ... | ... |
+| Marie Zahn | TBD | TBD  | Project Lead |
+| Carenza Williams | Understand more about EMU analysis | ECCO model basics, Python code | Project Helper |
+| Oceanne Bousquet | TBD | TBD | Project Helper |
+| Mike Wood | TBD | TBD | Project Helper |
 
 ### The problem
 
-Provide a few sentences describing the problem are you going to explore. If this is a technical exploration of software or data science methods, explain why this work is important in a broader context and specific applications of this work.
+Arctic freshwater is projected to increase over the next century. An increase in freshwater content in the Arctic may influence upper ocean stratification, in turn affecting upper ocean heat content and sea ice formation. We investigate the impact of a 10% increase in freshwater runoff on sea ice formation in the Fall at the mouth of the Mackenzie River.
 
 ## Data and Methods
 
 ### Data
 
-Briefly describe and provide citations for the data that will be used (size, format, how to access).
-
-### Existing methods
-
-How would you or others traditionally try to address this problem? Provide any relevant citations to prior work.
+These experiments were conducted using the Estimation the Circulation and Climate of the Ocean state estimate, version 4 release 5 (ECCOv4r5) (Ecco Consortium, https://ecco-group.org/products-ECCO-V4r4.htm). 
 
 ### Proposed methods/tools
 
-What new approaches would you like to implement for addressing your specific question(s) or application(s)?
+We will run the ECCOv4r5 model in three different configurations: with the runoff increased by 10% globally; with the runoff increased by 10% only at the Mackenzie River; and with a time-varying, semi-realistic runoff globally. We will compare these outputs, which have daily frequency, with the base ECCOv4r5 run. Particularly, we will investigate the change in sea ice area, sea ice thickness, salinity, ocean heat content, and stratification at the mouth of the Mackenzie river. We are interested in analysing output from the years 2014-2019.
 
-Will your project use machine learning methods? If so, we invite you to create a [model card](model-card.md)!
-
-### Additional resources or background reading
-
-Optional: links to manuscripts or technical documents providing background information, context, or other relevant information.
+The causes of increases in salinity at the mouth of the Mackenzie river will be investigated using the ECCO Modelling Utilities (EMU) adjoint and convolution tools. 
 
 ## Project goals and tasks
 
 ### Project goals
 
-List the specific project goals or research questions you want to answer. Think about what outcomes or deliverables you'd like to create (e.g. a series of tutorial notebooks demonstrating how to work with a dataset, results of an anaysis to answer a science question, an example of applying a new analysis method, or a new python package).
+We aim to answer (or be on the way to answering) the following questions:
 
-* Goal 1
-* Goal 2
-* ...
+* What is the impact of increased salinity on sea ice formation at the Mouth of the Mackenzie River?
+* How much of this change is attributable to a change in runoff of the Mackenzie river alone, compared to a change in runoff globally?
+* Why does this change in sea ice area occur?
 
 ### Tasks
 
 What are the individual tasks or steps that need to be taken to achieve each of the project goals identified above? What are the skills that participants will need or will learn and practice to complete each of these tasks? Think about which tasks are dependent on prior tasks, or which tasks can be performed in parallel.
 
-* Task 1 (all team members will learn to use GitHub)
-* Task 2 (team members will use the scikit-learn python library)
-  * Task 2a (assigned to team member A)
-  * Task 2b (assigned to team member B)
-* Task 3
-* ...
+* Run three new ECCO model runs
+* Analyse key diagnostics of these ECCO runs. In particular:
+  * Sea ice area
+  * Timing of sea ice onset
+  * Sea surface salinity
+  * Sea surface temperature
+  * Sea ice thickness
+  * Ocean heat content (upper 20m)
+  * Ocean stratification (upper 20m(
+* Run the EMU adjoint tool for each year of output.
+* Run the EMU convolution tool for each year of output
+* Analyse the results and consolidate understanding
 
-## Project Results
+## Project Results -- TBD
 
 Use this section to briefly summarize your project results. This could take the form of describing the progress your team made to answering a research question, developing a tool or tutorial, interesting things found in exploring a new dataset, lessons learned for applying a new method, personal accomplishments of each team member, or anything else the team wants to share.
 
