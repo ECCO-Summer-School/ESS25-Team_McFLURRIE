@@ -26,7 +26,7 @@ This template provides the following suggested organizaiton structure for the pr
 | ------------- | ------------- | ------------- | ------------- |
 | Marie Zahn | Gain experience running ECCOV4 and analyzing EMU outputs | Plotting ECCO output and Python  | Project Lead |
 | Carenza Williams | Understand more about EMU analysis | ECCO model basics, Python code | Project Helper |
-| Oceanne Bousquet | TBD | TBD | Project Helper |
+| Oceanne Bousquet | Learn to run ECCOV4, use EMU tools and visualize/analyze/interpret results | Python and understanding the mathematics behind EMU tools | Project Helper |
 | Mike Wood | TBD | TBD | Project Helper |
 
 ### The problem
