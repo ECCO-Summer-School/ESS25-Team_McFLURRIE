@@ -1,6 +1,8 @@
 # McFLURRIE
 ## Mackenzie Freshwater Layers Uncover River Runoff Ice Evolution
 
+<img src="McFLURRIE Logo.png" alt="" width="400"/>
+
 ### Collaborators
 
 | Name | Personal goals | Can help with | Role |
