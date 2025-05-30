@@ -24,7 +24,7 @@ This template provides the following suggested organizaiton structure for the pr
 
 | Name | Personal goals | Can help with | Role |
 | ------------- | ------------- | ------------- | ------------- |
-| Marie Zahn | TBD | TBD  | Project Lead |
+| Marie Zahn | Gain experience running ECCOV4 and analyzing EMU outputs | Plotting ECCO output and Python  | Project Lead |
 | Carenza Williams | Understand more about EMU analysis | ECCO model basics, Python code | Project Helper |
 | Oceanne Bousquet | TBD | TBD | Project Helper |
 | Mike Wood | TBD | TBD | Project Helper |
@@ -67,7 +67,7 @@ What are the individual tasks or steps that need to be taken to achieve each of 
   * Sea surface temperature
   * Sea ice thickness
   * Ocean heat content (upper 20m)
-  * Ocean stratification (upper 20m(
+  * Ocean stratification (upper 20m)
 * Run the EMU adjoint tool for each year of output.
 * Run the EMU convolution tool for each year of output
 * Analyse the results and consolidate understanding
